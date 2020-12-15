@@ -1,7 +1,7 @@
 ---
  - name: Create a login user
      user:
-      name: fideloper
+      name: user1
       password: '???'
       groups: # Empty by default, here we give it some groups
        - docker
@@ -10,4 +10,4 @@
       shell: /bin/bash       # Defaults to /bin/bash
       system: no             # Defaults to no
       createhome: yes        # Defaults to yes
-      home: /home/fideloper  # Defaults to /home/<username>
+      home: /home/user1  # Defaults to /home/<username>
